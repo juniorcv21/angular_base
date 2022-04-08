@@ -1,0 +1,11 @@
+*{
+    padding: .5rem;
+    margin: .5rem;
+}
+body{
+background-color: black !important;
+}
+
+h2{
+    color: aqua;
+}
