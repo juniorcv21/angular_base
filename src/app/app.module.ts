@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SoloNumerosDirective } from './directivas/solo-numeros.directive';
-import { SoloLetrasDirective } from './directivas/solo-letras.directive';
+import { SoloNumerosDirective } from './directivas/only-numeros/solo-numeros.directive';
+import { SoloLetrasDirective } from './directivas/only-teras/solo-letras.directive';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { SoloLetrasDirective } from './directivas/solo-letras.directive';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

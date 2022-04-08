@@ -15,7 +15,5 @@ export class SoloLetrasDirective {
       const initVaule = this.elRef.nativeElement.value;
       this.elRef.nativeElement.value = initVaule.replace(numero,'');
       if(initVaule !== this.elRef.nativeElement.value) event.stopPropagation();
-      
     }
-
 }
